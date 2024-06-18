@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @font-face {
+        font-family: "IranSans";
+        src: url("fonts/IranSans.eot");
+        src: url("fonts/IranSans.eot?#iefix") format("embedded-opentype"),
+          url("fonts/IranSans.woff2") format("woff2"),
+          url("fonts/IranSans.woff") format("woff"),
+          url("fonts/IranSans.ttf") format("truetype");
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        font-family: "IranSans", sans-serif;
+        background-color: #f7f7f7;
+      }
+      .heder {
+        text-align: end;
+        font-weight: 800;
+        color: #363636;
+      }
+      .container {
+        width: 100%;
+        max-width: 600px;
+        text-align: center;
+        background-color: #ffffff;
+        padding: 20px;
+        box-shadow: 0 6px 8px rgba(48, 48, 48, 0.1);
+        border-radius: 10px;
+        box-sizing: border-box;
+      }
+      .image {
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+      }
+      .image img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 4px 5px 5px rgb(150, 150, 150);
+      }
+      .text {
+        padding: 20px;
+        font-size: 16px;
+        color: #7c7c7c;
+        text-align: justify;
+        direction: rtl;
+        line-height: 1.6;
+      }
+
+      .button {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px;
+        direction: rtl;
+      }
+      .button a {
+        text-decoration: none;
+        color: white;
+        background-color: #1869be;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-weight: 600;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: calc(33.333% - 20px);
+        text-align: center;
+   
+      }
+      .button a:hover {
+        transition: 1s ;
+        background-color: #4095f0;
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+      }
+
+      @media (max-width: 600px) {
+        .container {
+          width: 100%;
+          padding: 10px;
+        }
+        .text {
+          font-size: 16px;
+          padding: 10px;
+        }
+      }
+
+      @media (max-width: 400px) {
+        .button a {
+          flex:100%;
+          flex-grow: 1;
+          flex-shrink: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="heder"><h2>سرمایه گذار محترم</h2></div>
+      <div class="image">
+        <img
+          src="https://ipgrp.ir/upload/lib/13%20_2_.jpg"
+          alt="Loading error"
+        />
+      </div>
+      <div class="text">
+        <p>
+          پذیره نویسی شرکت بیمه زندگی ایساتیس (سهامی عام در شرف تاسیس) با نماد
+          بتیس از روز شنبه مورخ 2 تیر 1403 حداکثر به مدت 15 روز در تمام کارگزاری
+          های بورس کشور قابل انجام است.
+        </p>
+        <p>
+          ارزش اسمی هر سهم 1000 ریال حداقل و حداکثر تعداد سهام قابل پذیره نویسی
+          توسط هر کد معامالتی:
+        </p>
+        <p>• در مورد اشخاص حقیقی و حقوقی: حداقل 1 سهم و حداکثر 50,000 سهم؛</p>
+      </div>
+
+      <div class="button">
+        <a href="https://online.ipb.ir/Account/Login">اقدام به خرید</a>
+        <a href="https://www.ifb.ir/GetFiles/GetAnnouncmentFile.aspx?file=18989"
+          >اطلاعیه فرابورس</a
+        >
+        <a href="https://istatispooya.com">اطلاعیه بیشتر</a>
+      </div>
+    </div>
+  </body>
+</html>
